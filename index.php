@@ -8,6 +8,7 @@
     //print_R($json);
     $count=count($json);
     echo'<table><th>เหรียญ</th><th>อัตราขึ้น-ลงวันนี้</th><th>ราคาล่าสุด  (บาท)</th>';
+
     for($i=0;$i<$count;$i++)
     {
       echo'<tr><td>'.$json[$i]['secondary_currency'].'</td><td>'.$json[$i]['change'].'</td><td>'.$json[$i]['last_price'].'</td></tr>';
