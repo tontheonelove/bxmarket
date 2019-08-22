@@ -7,7 +7,7 @@
     $json = json_decode($content, true);
     //print_R($json);
     $count=count($json);
-    echo'<table><th>เหรียญ</th><th>อัตราขึ้น-ลงวันนี้</th><th>ราคาล่าสุด  (บาท)</th>';
+    echo'<table style="width:100%"><th>เหรียญ</th><th>อัตราขึ้น-ลงวันนี้</th><th>ราคาล่าสุด  (บาท)</th>';
 
     for($i=0;$i<$count;$i++)
     {
